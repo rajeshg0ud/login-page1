@@ -152,9 +152,10 @@ form input[type="submit"]:hover{
     margin-right: 1rem;
 }
 .footer-img2{
-    height: 3.7vh; 
-    width: 2.3vw; 
-    margin-top: 0.07rem;
+    height: 3.8vh; 
+    width: 2.2vw; 
+    border-top:0vw;
+    margin-top: 0.05rem;
     margin-bottom: -0.5rem;
     margin-left: -0.1rem;
     margin-right: 0.20rem;
