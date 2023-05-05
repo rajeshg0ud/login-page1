@@ -7,7 +7,7 @@
 }
 
 body{
-    background: linear-gradient(45deg,rgb(39, 106, 205),rgb(49, 10, 188));
+    background: linear-gradient(45deg,#27affe,#192ca3);
     background-repeat: no-repeat;
     min-height: 100vh;
     min-width: 100vw;
@@ -38,7 +38,7 @@ main h2::before{
     position: absolute;
     height: 4px;
     width: 27px;
-    background: linear-gradient(45deg,rgb(73, 139, 238),rgb(49, 10, 188));
+    background: linear-gradient(45deg,#2EAFFA,#192ca3);
     bottom: -3px;
     border-radius: 8px;
 }
@@ -73,7 +73,7 @@ form .input-field:first-child{
     bottom: -5px;
     left:0;
     transform: scaleX(0);
-    background: linear-gradient(45deg,rgb(62, 134, 241),rgb(49, 10, 188));
+    background: linear-gradient(45deg,#2EAFFA,#192ca3);
     transition: all .4s ease-in-out;
     transform-origin: left;
 }
@@ -99,13 +99,14 @@ form input[type="submit"]{
     font-weight: 500;
     border-radius: 4px;
     width: 100%;
-    background: linear-gradient(10deg,rgb(56, 123, 223),rgb(49, 10, 188));
+    background: linear-gradient(10deg,#2e79fa,#192ca3);
     color:aliceblue;
     transition: all 0.3s ease;
 }
+
 form input[type="submit"]:hover{
-    letter-spacing: 0.5px;
-    background: linear-gradient(65deg,rgb(56, 123, 223),rgb(49, 10, 188));
+    letter-spacing: 1px;
+    background: linear-gradient(65deg,#2e79fa,#192ca3);
 
 }
 
@@ -114,7 +115,6 @@ form input[type="submit"]:hover{
     flex-direction: column;
     margin: 1rem;
 }
-
 .footer span{
     color: rgba(0, 0, 0, 0.7);
     text-align: center;
@@ -129,15 +129,12 @@ form input[type="submit"]:hover{
     margin-top: 1rem;
     width: 100%;
 }
-
-.footer .social-field a{
+.footer-link{
     text-decoration: none;
-    color:white;
-    margin-left:0.5rem;
+    color:aliceblue;
 }
-
 .footer .social-field.twitter{
-    background: linear-gradient(to right, #56a7f2,#468aca);
+    background: linear-gradient(to right, #27affe,#1d72c1);
    
 }
 .footer .social-field.facebook{
@@ -147,16 +144,14 @@ form input[type="submit"]:hover{
 .footer-img{
     height: 2.3vh; 
     width: 2.3vh; 
-    margin-top: 0.26rem;
-    margin-left: 0.5rem;
-    margin-right: 1.15rem;
-    margin-bottom: -0.2rem;
+    margin-left: 1.6rem;
+    margin-right: 0.6rem;
 }
 .footer-img2{
-    height: 3.36vh; 
+    height: 3.5vh; 
     width: 3.5vh; 
-    margin-top: 0.17rem;
-    margin-bottom: -0.4rem;
-    margin-left: -0.1rem;
-    margin-right: 1rem;
+    margin-bottom: -0.5rem;
+    margin-left: 1.1rem;
+    margin-right: 0.20rem;
 }
+
